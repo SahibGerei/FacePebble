@@ -274,10 +274,10 @@ function Update_Info(){
 Pebble.addEventListener("showConfiguration",
   function(e) {
     try {
-		Pebble.openURL("https://grakovne.org/pebble/SmartFace/AppConfig_3_5.php?Location=" + Location + "&Info_Updates_Frequency=" + Info_Updates_Frequency + "&Hourly_Vibe=" + Hourly_Vibe + "&BT_Vibe=" + BT_Vibe + "&Add_String=" + Add_String + "&Language=" + Language + "&Inverted=" + Inverted + "&Hide_Weather=" + Hide_Weather + "&Charge_Vibe=" + Charge_Vibe + "&Hide_Battery=" + Hide_Battery + "&Hide_BT=" + Hide_BT + "&Temp_Units=" + Temp_Units + "&Night_Mode=" + Night_Mode + "&Night_Start=" + Night_Hours_On + ":" + Night_Mins_On + "&Night_Finish=" + Night_Hours_Off + ":" + Night_Mins_Off + "&Shake_update=" + Shake_Update + "&Night_Silent=" + Night_Silent + "&Night_Invert_Display=" + Night_Invert_Display + "&Night_Offline=" + Night_Offline + "&Custom_Text=" + Custom_Text + "&Text_Size=" + Text_Size + "&Date_Style=" + Date_Style);
+		Pebble.openURL("https://grakovne.org/pebble/SmartFace/AppConfig.php?Location=" + Location + "&Info_Updates_Frequency=" + Info_Updates_Frequency + "&Hourly_Vibe=" + Hourly_Vibe + "&BT_Vibe=" + BT_Vibe + "&Add_String=" + Add_String + "&Language=" + Language + "&Inverted=" + Inverted + "&Hide_Weather=" + Hide_Weather + "&Charge_Vibe=" + Charge_Vibe + "&Hide_Battery=" + Hide_Battery + "&Hide_BT=" + Hide_BT + "&Temp_Units=" + Temp_Units + "&Night_Mode=" + Night_Mode + "&Night_Start=" + Night_Hours_On + ":" + Night_Mins_On + "&Night_Finish=" + Night_Hours_Off + ":" + Night_Mins_Off + "&Shake_update=" + Shake_Update + "&Night_Silent=" + Night_Silent + "&Night_Invert_Display=" + Night_Invert_Display + "&Night_Offline=" + Night_Offline + "&Custom_Text=" + Custom_Text + "&Text_Size=" + Text_Size + "&Date_Style=" + Date_Style);
 		}
 	catch (err) {
-		Pebble.openURL("https://grakovne.org/pebble/SmartFace/AppConfig_3_5.php");
+		Pebble.openURL("https://grakovne.org/pebble/SmartFace/AppConfig.php");
 		}
 	}
 );
