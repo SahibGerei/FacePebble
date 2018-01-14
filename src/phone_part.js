@@ -179,7 +179,7 @@ function Update_Info(){
 	var CurrentWeather = " ";
 	var response = " ";
 	if (Hide_Weather == 0){
-		response = HTTPGET("http://api.openweathermap.org/data/2.5/weather?q=" + Location + "&APPID=ba08e74fcb7da39750070a88a2ab8a9b");
+		response = HTTPGET("http://api.openweathermap.org/data/2.5/weather?q=" + Location + "&APPID=e4b63c24384d593cc3564c8b19852556");
 		
 		var json = JSON.parse(response);
 		var temperature = (json.main.temp - 273.15);
