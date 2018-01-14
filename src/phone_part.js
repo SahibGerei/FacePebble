@@ -99,7 +99,7 @@ function ReadSettings(){
 	Date_Style = localStorage.getItem(Date_Style_key);
 	
 	if (!Location)
-		Location = "London";
+		Location = "Chita";
 	if (!Hourly_Vibe)
 		Hourly_Vibe = 1;
 	if (!BT_Vibe)
